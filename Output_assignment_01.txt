@@ -1,0 +1,70 @@
+PS C:\python> & C:\Users\clash\AppData\Local\Programs\Python\Python314\python.exe c:/python/Lib_managemenrt_system.py
+Atomic Habits Book added successfully
+How to Win Friends and Influence People Book added successfully
+The 7 Habits of Highly Effective People Book added successfully
+The Power of Now Book added successfully
+Think and Grow Rich Book added successfully
+Can't Hurt me Book added successfully
+Anuj Kumar registered successfully
+
+=== LIBRARY MANAGEMENT MENU ===
+1. Add a New Book
+2. Register a New Patron
+3. Borrow a Book
+4. Return a Book
+5. Exit
+
+Enter your choice (1-5): 1
+Enter book title: Marvel comics
+Enter book author: Stan Lee
+Enter book ID: 1900
+Marvel comics Book added successfully
+
+=== LIBRARY MANAGEMENT MENU ===
+1. Add a New Book
+2. Register a New Patron
+3. Borrow a Book
+4. Return a Book
+5. Exit
+
+Enter your choice (1-5): 2
+Enter patron name: Iron Man
+Enter patron ID: 3000
+Iron Man registered successfully
+
+=== LIBRARY MANAGEMENT MENU ===
+1. Add a New Book
+2. Register a New Patron
+3. Borrow a Book
+4. Return a Book
+5. Exit
+
+Enter your choice (1-5): 3
+Enter Patron ID: 3000
+Enter Book ID to borrow: 1900
+
+[Success] 'Marvel comics' borrowed successfully by Iron Man
+
+=== LIBRARY MANAGEMENT MENU ===
+1. Add a New Book
+2. Register a New Patron
+3. Borrow a Book
+4. Return a Book
+5. Exit
+
+Enter your choice (1-5): 4
+Enter Patron ID: 3000
+Enter Book ID to return: 1900
+
+[Success] 'Marvel comics' returned successfully by Iron Man
+
+=== LIBRARY MANAGEMENT MENU ===
+1. Add a New Book
+2. Register a New Patron
+3. Borrow a Book
+4. Return a Book
+5. Exit
+
+Enter your choice (1-5): 5
+
+Exiting the Library System. Goodbye!
