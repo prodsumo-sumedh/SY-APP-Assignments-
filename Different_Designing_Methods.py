@@ -25,3 +25,7 @@ observer2 = Observer()
 subject.attach(observer1) 
 subject.attach(observer2)
 subject.notify("Hello Observers!")
+
+# Output
+'''Recieved message: Hello Observers!
+   Recieved message: Hello Observers!'''
