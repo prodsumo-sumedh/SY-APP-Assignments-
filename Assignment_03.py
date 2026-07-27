@@ -72,3 +72,54 @@ while True:
 
 
     processor.process_payment(amount)
+
+
+#Output
+'''===== Payment Processing System =====
+1. Credit Card
+2. Debit Card
+3. UPI
+4. Net Banking
+5. Exit
+Enter your choice: 1
+Enter payment amount: 545
+Payment of $545.0 processed using Credit Card.
+
+===== Payment Processing System =====
+1. Credit Card
+2. Debit Card
+3. UPI
+4. Net Banking
+5. Exit
+Enter your choice: 2
+Enter payment amount: 299
+Payment of $299.0 processed using Debit Card.
+
+===== Payment Processing System =====
+1. Credit Card
+2. Debit Card
+3. UPI
+4. Net Banking
+5. Exit
+Enter your choice: 3
+Enter payment amount: 356
+Payment of $356.0 processed using UPI.
+
+===== Payment Processing System =====
+1. Credit Card
+2. Debit Card
+3. UPI
+4. Net Banking
+5. Exit
+Enter your choice: 4
+Enter payment amount: 395
+Payment of $395.0 processed using Net Banking.
+
+===== Payment Processing System =====
+1. Credit Card
+2. Debit Card
+3. UPI
+4. Net Banking
+5. Exit
+Enter your choice: 5
+Thank you for using the Payment System!'''
