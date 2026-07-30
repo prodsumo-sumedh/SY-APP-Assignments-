@@ -38,3 +38,14 @@ store.Add_mobiles("samsung","F23",35000)
 store.Add_mobiles("Mototrola","g57 power",19000)
 
 store.display()
+
+
+# Output
+'''Mobile added successfully: Apple Iphone 17 pro
+Mobile added successfully: samsung F23
+Mobile added successfully: Mototrola g57 power
+========== Arnav mobile store =========
+Brand      Model           Price        Category
+Apple      Iphone 17 pro   95000        Premium Category
+samsung    F23             35000        Mid - range category
+Mototrola  g57 power       19000        Budget'''
