@@ -11,7 +11,7 @@ class Course:
             return "Long term course category "
 
     def Display(self):
-        print(f"{self.course_name:<20} {self.duration:<15} {self.fees:<20} {self.Course_Category()}")
+        print(f"{self.course_name:<20} {self.duration:<18} {self.fees:<13} {self.Course_Category()}")
 
 class Institute:
     def __init__(self,name):
@@ -26,7 +26,7 @@ class Institute:
 
     def display(self):
         print(f"========== {self.name} =========")
-        print(f"{'Course':<20} {'Duration(years)':<15} {'Fees':<20} {'Category'}")
+        print(f"{'Course':<20} {'Duration(years)':<18} {'Fees':<13} {'Category'}")
         for cour in self.courses:
             cour.Display()
 
@@ -36,3 +36,15 @@ institute.Add_courses("IBM Data science",0.3,6000)
 institute.Add_courses("BBA",3,900000)
 
 institute.display()
+
+#Output
+'''
+Course added successfully: BTech in CSE -4(in years)
+Course added successfully: IBM Data science -0.3(in years)
+Course added successfully: BBA -3(in years)
+========== MIT ADT UNIVERSITY =========
+Course               Duration(years)    Fees          Category
+BTech in CSE         4                  1272000       Long term course category 
+IBM Data science     0.3                6000          Short term course category
+BBA                  3                  900000        Long term course category
+'''
