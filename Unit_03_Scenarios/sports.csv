@@ -1,0 +1,5 @@
+EquipmentID,Name,Category,Quantity,Condition
+EQ101,Basketball,Balls,15,Good
+EQ102,Tennis Racket,Rackets,8,Excellent
+EQ103,Yoga Mat,Fitness,25,Fair
+EQ104,Soccer Ball,Balls,12,Good
